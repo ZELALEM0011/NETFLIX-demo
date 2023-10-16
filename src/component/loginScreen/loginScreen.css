@@ -1,0 +1,115 @@
+.LoginScreen {
+  position: relative;
+  height: 100%;
+  background: url("bg.png") center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginscreen__background {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+/* .loginscreen__gradient {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+      to top,
+  rgba(0,0,0,0.8) 0,
+  rgba(0,0,0,0) 60%,
+  rgba(0,0,0,0.8) 100%
+  );
+} */
+.loginscreen__body {
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  /* align-items: center; */
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  left: 0;
+  right: 0;
+}
+.loginscreen__body > h1 {
+  align-items: center;
+  font-size: 3.125rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.loginscreen__body > h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.loginscreen__body > h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.loginscreen__logo {
+  position: fixed;
+  height: 80px;
+  left: 20px;
+  cursor: pointer;
+}
+.loginscreen__button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  color: white;
+  background-color: #e50914;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.loginscreen__button:hover {
+      background-color: rgb(175, 10, 4);
+}
+.loginscreen__input {
+      margin-top: 10px;
+}
+.loginscreen__input > form > input {
+  width: 60%;
+  /* height: 40px; */
+  padding: 16px 20px;
+  max-width: 600px;
+  outline-width: 0;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.loginscreen__input > form > button {
+  /* height: 50px; */
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  background-color: #e50914;
+  outline-width: 0;
+  padding: 15px 20px;
+ padding-top: 13.5px;
+  font-size: 1rem;
+  font-weight: 200;
+  cursor: pointer;
+}
+.loginscreen__input > form > button:hover{
+      background-color: rgb(175, 10, 4);
+}

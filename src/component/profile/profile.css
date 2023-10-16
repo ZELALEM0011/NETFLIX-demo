@@ -1,0 +1,145 @@
+.ProfileScreen {
+  height: 100vh;
+  color: white;
+}
+.profilescreen_body {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8%;
+  max-width: 800px;
+}
+.profilescreen_body > h1 {
+  font-size: 60px;
+  font-weight: 400;
+  border-bottom: 1px solid #2b2c2d;
+  margin-bottom: 20px;
+}
+.profilescreen_info {
+  display: flex;
+}
+.profilescreen_info > img {
+  height: 130px;
+  width: 130px;
+}
+.profilescreen_detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  flex: 1;
+}
+.profilescreen_detail > h2 {
+  padding: 15px;
+  margin-top: 0px;
+  background-color: grey;
+  padding-left: 20px;
+}
+.profilescreen_signout {
+  padding: 15px 35px;
+  width: 100%;
+  margin-top: 5%;
+  font-size: 1rem;
+  color: white;
+  font-weight: 400;
+  background-color: #e50914;
+  border: none;
+}
+.profilescreen_signout:hover {
+  background-color: #9c080f;
+}
+.profilescreen_plan > h2 {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #2b2c2d;
+}
+.profilescreen_plan > h3 {
+  font-weight: 300;
+  font-size: 1.3rem;
+  padding: 15px 0px;
+}
+.netflix_standard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0px;
+  padding-left: 20px;
+}
+.netflix__standard_word > h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.netflix__standard_word > h4 {
+  font-size: 1rem;
+  font-weight: 200;
+}
+.netflix_standard > button {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 10px 20px;
+  margin-right: 20px;
+  color: white;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+}
+.netflix_standard > button:hover {
+  background-color: #9c080f;
+}
+.netflix_basic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0px;
+  padding-left: 20px;
+}
+.netflix__basic_word > h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.netflix__basic_word > h4 {
+  font-size: 1rem;
+  font-weight: 200;
+}
+.netflix_basic > button {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 10px 20px;
+  margin-right: 20px;
+  color: white;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+}
+.netflix_basic > button:hover {
+  background-color: #9c080f;
+}
+.netflix_premium {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0px;
+  padding-left: 20px;
+}
+.netflix__premium_word > h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.netflix__premium_word > h4 {
+  font-size: 1rem;
+  font-weight: 200;
+}
+.netflix_premium > button {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 10px 20px;
+  margin-right: 20px;
+  color: white;
+  background-color: grey;
+  border: none;
+  cursor: pointer;
+}
+.netflix_premium > button:hover {
+  background-color: #555151;
+}
